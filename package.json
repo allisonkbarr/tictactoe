@@ -8,7 +8,9 @@
     "mocha": "^2.3.3"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "dev": "node server.js"
   },
   "repository": {
     "type": "git",
