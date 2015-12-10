@@ -11,7 +11,7 @@ module.exports = {
   devtool: 'eval',
   entry: [ './js/main.js' ].concat(extras),
   output: {
-    path: path.join(__dirname, 'js'),
+    path: __dirname,
     filename: 'bundle.js',
     publicPath: ''
   },
