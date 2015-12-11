@@ -5,10 +5,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "babel-register": "^6.3.13",
     "mocha": "^2.3.3"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --watch --compilers js:babel-register",
     "build": "./node_modules/webpack/bin/webpack.js",
     "dev": "node server.js"
   },
