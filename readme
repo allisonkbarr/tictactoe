@@ -1,0 +1,33 @@
+README last updated: 2015-12-27
+
+NAME
+----
+Tic Tac Toe
+
+
+SYNOPSIS
+--------
+Player vs. computer version of the classic game with a simple AI.
+
+
+DESCRIPTION
+-----------
+AI will recognize and take a winning or blocking move (i.e. when 2 of 3 spots in a winning combination
+are taken by either Xs or Os), and otherwise will take a random, empty space. Player always goes first.
+
+JavaScript for the game is split between the js/game.js file, which contains all the game logic, and the
+js/main.js file, which stores the data and executes the game functionality.
+
+In addition, there are tests written with Mocha in the test/game.js file.
+
+
+INSTALLATION
+------------
+Dev dependencies:
+  * babel-register ^6.3.13 (https://babeljs.io/docs/setup/)
+  * mocha ^2.3.3 (https://mochajs.org/)
+
+
+AUTHOR
+------
+Allison Keane Barr (allisonkbarr)
