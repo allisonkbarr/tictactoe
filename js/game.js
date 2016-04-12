@@ -69,6 +69,7 @@ api.aiRandomSelect = function aiRandomSelect(squaresData) {
 //Combine the above 3 in priority order to return AI's move selection
 
 api.aiSelect = function aiSelect(winCombos, squaresData) {
+  console.log(winCombos, squaresData)
   console.log("win index", api.aiWinIndex(winCombos, squaresData), "block index", api.aiBlockIndex(winCombos, squaresData))
   if (api.aiWinIndex(winCombos, squaresData) >= 0) {
     return api.aiWinIndex(winCombos, squaresData)
